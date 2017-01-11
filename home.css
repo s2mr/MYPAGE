@@ -8,13 +8,26 @@ html,
     font-size: 60px;
 }
 
-.first,
-.second,
-.third,
-.fourth {
+a {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.3s;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
+}
+
+.first,
+.fourth a {
+    color: lightslategrey;
+}
+
+.second,
+.third a {
+    color: white;
 }
 
 .first {
